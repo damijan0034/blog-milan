@@ -4,7 +4,7 @@ import React from 'react'
 const ContactPage = () => {
   return (
     <div>
-        <h1 className='text-center mt-10 text-6xl font-extrabold '>Let's Keep In Touch</h1>
+        <h1 className='text-center mt-10 text-6xl font-extrabold '>Let Keep In Touch</h1>
         <div className='sm:flex'>
             <div className='flex-1 w-full h-[400px] relative my-10 mx-auto '>
                 <Image src="/contact.png" alt='contact' fill
