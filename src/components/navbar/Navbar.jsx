@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Button from '../Button'
+import DarkMode from '../DarkMode'
 
 const links=[
     {
@@ -40,6 +41,7 @@ const Navbar = () => {
     <div className='flex justify-between items-center h-10'>
         <Link className='font-bold' href={"/"}>lamamia</Link>
         <div className='space-x-2 text-[14px] flex items-center'>
+            <DarkMode />
             {
                 links.map((link)=>(
                     <Link key={link.id} href={link.url}>{link.title}</Link>

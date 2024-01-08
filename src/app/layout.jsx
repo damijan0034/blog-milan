@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
 import Container from '@/components/Container'
+import { ThemeProvider } from '@/context/ThemeContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+     
+        <ThemeProvider>
         <Container>
           <Navbar />
           <div className=''>
@@ -23,7 +26,9 @@ export default function RootLayout({ children }) {
           </div>
           
           <Footer />
-        </Container>
+          </Container>
+        </ThemeProvider>
+        
        
         </body>
     </html>

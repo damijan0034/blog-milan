@@ -4,7 +4,22 @@
 
 body{
   max-width: 100%;
+ 
+}
+
+.dark{
   background-color: #111;
   color:#bbb;
+  
 }
+
+.light{
+  background-color:white;
+  color:#3d3e26;
+  
+}
+.theme{
+  transition: 1s all;
+}
+
 
