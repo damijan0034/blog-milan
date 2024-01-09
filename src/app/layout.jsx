@@ -5,6 +5,7 @@ import Footer from '@/components/footer/Footer'
 import Container from '@/components/Container'
 import { ThemeProvider } from '@/context/ThemeContext'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 

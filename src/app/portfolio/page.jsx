@@ -1,11 +1,17 @@
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
+
+
+
+
 const Portfolio = () => {
+   
   return (
     <div className=''>
-        
+      
         <h2 className='font-bold text-[20px] my-4'>Choose A Gallery</h2>
         <div className=' md:flex space-y-5 sm:space-x-10   '> 
         <div className='flex-1 relative h-[400px] w-full  border mt-5 ' style={{backgroundImage:"url('/illustration.png')",backgroundSize:"cover"}} >
