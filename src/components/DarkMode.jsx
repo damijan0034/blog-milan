@@ -18,9 +18,9 @@ const DarkMode = () => {
         <div><FaMoon /></div>
         <div className="bg-green-300 h-[15px]
         rounded-full
-        w-[15px] absolute"
+        w-[17px] absolute"
         
-        style={mode === "light" ? {left:"5px"}  :  {right:"5px"} } 
+        style={mode === "light" ? {left:"6px"}  :  {right:"6px"} } 
         ></div>
     </div>
   )
